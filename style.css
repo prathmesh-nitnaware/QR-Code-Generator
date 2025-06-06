@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #ebeffb;
+    background-color: #f6f7e1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,4 +73,20 @@ h3{
 
 .qr-generator button:hover {
     background-color: #0056b3;
+}
+
+#download-btn button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#download-btn button:hover {
+    background-color: #218838;
 }

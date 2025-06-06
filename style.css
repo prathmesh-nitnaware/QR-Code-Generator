@@ -11,8 +11,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* position: fixed; */
-    /* margin: 0; */
 }
 
 h3{
@@ -89,4 +87,16 @@ h3{
 
 #download-btn button:hover {
     background-color: #218838;
+}
+
+#imgbox {
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+#qr-img {
+    display: none;
+    margin: 0 auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }

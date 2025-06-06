@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QR_Code_Gen</title>
+    <title>QR Code Generator</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div class="qr-generator">
         <h1>Enter Your Link</h1>
-        <input type="text" placeholder="Type your name or link here..." id="qr-text">
+        <input type="text" placeholder="Type your name or link here..." id="qr-text" aria-label="QR code input">
         <div id="imgbox">
-            <img src="" id="qr-img">
+            <img src="" id="qr-img" alt="Generated QR Code">
         </div>
+        <a id="download-btn" href="#" download="qr-code.png" style="display:none; margin-top:10px;">
+            <button type="button">Download QR Code</button>
+        </a>
         <button id="btn">Generate QR Code</button>
+
         <div id="error-msg" style="color: red; margin-top: 10px;"></div>
     </div>
 
-    <h3>Made by <a href="https://github.com/prathmesh-nitnaware">Prathmesh Nitnaware</a></h3>
+    <h3>
+        Made by
+        <a href="https://github.com/prathmesh-nitnaware" target="_blank" rel="noopener noreferrer">
+            Prathmesh Nitnaware
+        </a>
+    </h3>
 
-    <script src = "script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
